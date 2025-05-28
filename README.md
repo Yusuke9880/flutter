@@ -1,22 +1,4 @@
-**ウィジェット**：UIを構成するパーツ  
-**ウィジェットツリー**：ウィジェットの中にウィジェットを組み込む構造  
-
-```
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      home: Text('Hello, Flutter World!!', style: TextStyle(fontSize:32.0)),
-    );
-  }
-}
-```
+># 目次
+>[5月20日 p50~p67](lib/docs/0520.md)  
+>[5月21日 p68~p73](lib/docs/0521.md)  
+>[5月27日 p74~p95](lib/docs/0527.md)
